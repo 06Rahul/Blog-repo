@@ -16,7 +16,7 @@ spring:
   security:
     user:
       name: user
-      password: 0000
+      password: pass
 
   # FIXED: Moved these out of 'app' and into 'spring'
   servlet:
@@ -41,5 +41,5 @@ jwt:
 
 gemini:
   api:
-    key: AIzaSyDQGkNa3CVBu8wWyini60uWkh-72IUQVw0
-    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+    key: key
+    url: url
